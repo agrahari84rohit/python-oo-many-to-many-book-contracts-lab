@@ -1,5 +1,21 @@
 # Many-to-many Object Relationships Lab
 
+This project models a many-to-many relationship between books and authors using a Contract class as the join model. It demonstrates how one author can work on many books and how one book can have many authors, while also tracking royalty information and contract dates.
+
+## What This Project Does
+
+- Creates Book and Author objects
+- Uses Contract as the middle model for the many-to-many relationship
+- Lets authors sign contracts for books
+- Tracks royalties and contract dates
+- Provides quick access to related books, authors, and contract history
+
+## Completed Work
+
+The many-to-many relationship logic is implemented and verified in the current project setup.
+
+![Completed book-author contract lab overview](images/completed-work.svg)
+
 Now that we have learned about several types of relationships it's time to build 
 one of our own. In this lab you will be creating a many-to many relationship in 
 python 
